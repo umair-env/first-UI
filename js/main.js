@@ -136,7 +136,7 @@ magneticLinks.forEach(link => {
     });
 });
 
-document.querySelectorAll('.service-card.black, footer, .cta-band, .marquee-wrap').forEach(el => {
+document.querySelectorAll('.service-card, footer, .cta-band, .marquee-wrap').forEach(el => {
     ScrollTrigger.create({
         trigger: el,
         start: "top 50%",
@@ -153,3 +153,4 @@ document.querySelectorAll('.service-card.black, footer, .cta-band, .marquee-wrap
         }
     });
 });
+
